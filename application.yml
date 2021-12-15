@@ -12,8 +12,8 @@ microservice:
   account-service:
     endpoints:
       endpoint:
-        uri: http://ACCOUNT-SERVICE/payment/doPayment
+        uri: http://account-service/account
   customer-service:
     endpoints:
       endpoint:
-        uri: http://CUSTOMER-SERVICE/order/bookOrder  
+        uri: http://customer-service/customer  
